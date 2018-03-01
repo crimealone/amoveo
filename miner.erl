@@ -3,7 +3,7 @@
 -export([start/0, unpack_mining_data/1]).
 %-define(Peer, "http://localhost:8081/").%for a full node on same computer.
 %-define(Peer, "http://localhost:8085/").%for a mining pool on the same computer.
--define(Peer, "http://159.89.106.253:8085/").%for a mining pool on the server.
+-define(Peer, "http://34.229.146.193:8085/").%for a mining pool on the server.
 -define(CORES, 8).
 -define(mode, pool).
 -define(Pubkey, <<"BMJmff11E4vPTXxYV45gM067NzWAuqBpPCN1MjskLJtltVYR8WyJL4HgbpiJ6Yz3PwgrIfrJQrEJBgJBLuA2NSw=">>).
