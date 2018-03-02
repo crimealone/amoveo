@@ -3,8 +3,8 @@
 -export([start/0, unpack_mining_data/1]).
 %-define(Peer, "http://localhost:8081/").%for a full node on same computer.
 %-define(Peer, "http://localhost:8085/").%for a mining pool on the same computer.
--define(Peer, "http://34.229.146.193:8085/").%for a mining pool on the server.
--define(CORES, 8).
+-define(Peer, "http://159.89.106.253:8085/").%for a mining pool on the server.
+-define(CORES, 36).
 -define(mode, pool).
 -define(Pubkey, <<"BMJmff11E4vPTXxYV45gM067NzWAuqBpPCN1MjskLJtltVYR8WyJL4HgbpiJ6Yz3PwgrIfrJQrEJBgJBLuA2NSw=">>).
 -define(period, 10).%how long to wait in seconds before checking if new mining data is available.
